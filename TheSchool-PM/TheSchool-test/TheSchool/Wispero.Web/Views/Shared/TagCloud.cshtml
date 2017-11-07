@@ -1,0 +1,47 @@
+﻿@model Wispero.Web.Models.TagCloudViewModel
+
+<div class="container" id="TagCloud">
+    <div class="row">
+        <h2>@Html.ActionLink("Tag Cloud","Index", "Listing", null, null)</h2>
+    </div>
+    <div>
+        @foreach (var tag in Model.Tags)
+        {
+            <span>
+                @Html.ActionLink(tag.Tag, "Index", "Listing", new { tag.Tag }, new { @class = Model.GetCssClass(tag.Count) })
+            </span>
+        }
+    </div>
+</div>
+
+<style>
+
+    .tag1 {
+        font-size: 0.5em
+    }
+
+    .tag2 {
+        font-size: 0.8em
+    }
+
+    .tag3 {
+        font-size: 1em
+    }
+
+    .tag4 {
+        font-size: 1.5em
+    }
+
+    .tag5 {
+        font-size: 2em
+    }
+
+    .tag6 {
+        font-size: 2.5em
+    }
+
+    .tag7 {
+        font-size: 4em
+    }
+</style>
+

@@ -1,0 +1,127 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{86F44DD9-780D-4FBE-9E85-21DA0E2C0F28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{250A3720-5A45-4E0C-A6FD-903B53E552E8}"
+	ProjectSection(SolutionItems) = preProject
+		Fibonacci.testsettings = Fibonacci.testsettings
+		Wispero.testsettings = Wispero.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageSource", "ImageSource\ImageSource.csproj", "{71C3CF34-BEB4-4F6A-8A9B-ABC781B38F64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wispero", "Wispero", "{A1DF8531-42B0-4126-92C5-4FDB63555626}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wispero.Web", "Wispero.Web\Wispero.Web.csproj", "{ED958C35-4D75-46F4-9B91-0BF75CFE4E2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wispero.Core", "Wispero.Core\Wispero.Core.csproj", "{5C6FB98D-F166-4063-BAAF-C2ECAC744B43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wispero.Data", "Wispero.Data\Wispero.Data.csproj", "{386A86A6-0ED2-4B68-ADFF-37AB79F1461D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wispero.Export", "Wispero.Export\Wispero.Export.csproj", "{31D3F292-E168-412C-9052-D2B82836B726}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wispero.Entities", "Wispero.Entities\Wispero.Entities.csproj", "{172BE377-E22C-4162-B887-D296044F8E4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wispero.Web.Test", "Wispero.Web.Test\Wispero.Web.Test.csproj", "{720CD7AF-1443-4345-9C05-E3A368AD48EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wispero.Data.Test", "Wispero.Data.Test\Wispero.Data.Test.csproj", "{7ACC4F60-5D01-45B5-B76E-75F84388A4BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86F44DD9-780D-4FBE-9E85-21DA0E2C0F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F44DD9-780D-4FBE-9E85-21DA0E2C0F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F44DD9-780D-4FBE-9E85-21DA0E2C0F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F44DD9-780D-4FBE-9E85-21DA0E2C0F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71C3CF34-BEB4-4F6A-8A9B-ABC781B38F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C3CF34-BEB4-4F6A-8A9B-ABC781B38F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C3CF34-BEB4-4F6A-8A9B-ABC781B38F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C3CF34-BEB4-4F6A-8A9B-ABC781B38F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED958C35-4D75-46F4-9B91-0BF75CFE4E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED958C35-4D75-46F4-9B91-0BF75CFE4E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED958C35-4D75-46F4-9B91-0BF75CFE4E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED958C35-4D75-46F4-9B91-0BF75CFE4E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C6FB98D-F166-4063-BAAF-C2ECAC744B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C6FB98D-F166-4063-BAAF-C2ECAC744B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C6FB98D-F166-4063-BAAF-C2ECAC744B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C6FB98D-F166-4063-BAAF-C2ECAC744B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{386A86A6-0ED2-4B68-ADFF-37AB79F1461D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{386A86A6-0ED2-4B68-ADFF-37AB79F1461D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{386A86A6-0ED2-4B68-ADFF-37AB79F1461D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{386A86A6-0ED2-4B68-ADFF-37AB79F1461D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31D3F292-E168-412C-9052-D2B82836B726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D3F292-E168-412C-9052-D2B82836B726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31D3F292-E168-412C-9052-D2B82836B726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31D3F292-E168-412C-9052-D2B82836B726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{172BE377-E22C-4162-B887-D296044F8E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172BE377-E22C-4162-B887-D296044F8E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172BE377-E22C-4162-B887-D296044F8E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172BE377-E22C-4162-B887-D296044F8E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{720CD7AF-1443-4345-9C05-E3A368AD48EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720CD7AF-1443-4345-9C05-E3A368AD48EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720CD7AF-1443-4345-9C05-E3A368AD48EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720CD7AF-1443-4345-9C05-E3A368AD48EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ACC4F60-5D01-45B5-B76E-75F84388A4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ACC4F60-5D01-45B5-B76E-75F84388A4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ACC4F60-5D01-45B5-B76E-75F84388A4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ACC4F60-5D01-45B5-B76E-75F84388A4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED958C35-4D75-46F4-9B91-0BF75CFE4E2D} = {A1DF8531-42B0-4126-92C5-4FDB63555626}
+		{5C6FB98D-F166-4063-BAAF-C2ECAC744B43} = {A1DF8531-42B0-4126-92C5-4FDB63555626}
+		{386A86A6-0ED2-4B68-ADFF-37AB79F1461D} = {A1DF8531-42B0-4126-92C5-4FDB63555626}
+		{31D3F292-E168-412C-9052-D2B82836B726} = {A1DF8531-42B0-4126-92C5-4FDB63555626}
+		{172BE377-E22C-4162-B887-D296044F8E4F} = {A1DF8531-42B0-4126-92C5-4FDB63555626}
+		{720CD7AF-1443-4345-9C05-E3A368AD48EE} = {A1DF8531-42B0-4126-92C5-4FDB63555626}
+		{7ACC4F60-5D01-45B5-B76E-75F84388A4BF} = {A1DF8531-42B0-4126-92C5-4FDB63555626}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ephotomemories.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Fibonacci\\Fibonacci.csproj
+		SccProjectName1 = Fibonacci
+		SccLocalPath1 = Fibonacci
+		SccProjectUniqueName2 = ImageSource\\ImageSource.csproj
+		SccProjectName2 = ImageSource
+		SccLocalPath2 = ImageSource
+		SccProjectUniqueName3 = Wispero.Web\\Wispero.Web.csproj
+		SccProjectTopLevelParentUniqueName3 = TheSchool.sln
+		SccProjectName3 = Wispero.Web
+		SccLocalPath3 = Wispero.Web
+		SccProjectUniqueName4 = Wispero.Core\\Wispero.Core.csproj
+		SccProjectTopLevelParentUniqueName4 = TheSchool.sln
+		SccProjectName4 = Wispero.Core
+		SccLocalPath4 = Wispero.Core
+		SccProjectUniqueName5 = Wispero.Data\\Wispero.Data.csproj
+		SccProjectTopLevelParentUniqueName5 = TheSchool.sln
+		SccProjectName5 = Wispero.Data
+		SccLocalPath5 = Wispero.Data
+		SccProjectUniqueName6 = Wispero.Export\\Wispero.Export.csproj
+		SccProjectTopLevelParentUniqueName6 = TheSchool.sln
+		SccProjectName6 = Wispero.Export
+		SccLocalPath6 = Wispero.Export
+		SccProjectUniqueName7 = Wispero.Entities\\Wispero.Entities.csproj
+		SccProjectTopLevelParentUniqueName7 = TheSchool.sln
+		SccProjectName7 = Wispero.Entities
+		SccLocalPath7 = Wispero.Entities
+		SccProjectUniqueName8 = Wispero.Web.Test\\Wispero.Web.Test.csproj
+		SccProjectTopLevelParentUniqueName8 = TheSchool.sln
+		SccProjectName8 = Wispero.Web.Test
+		SccLocalPath8 = Wispero.Web.Test
+		SccProjectUniqueName9 = Wispero.Data.Test\\Wispero.Data.Test.csproj
+		SccProjectTopLevelParentUniqueName9 = TheSchool.sln
+		SccProjectName9 = Wispero.Data.Test
+		SccLocalPath9 = Wispero.Data.Test
+	EndGlobalSection
+EndGlobal

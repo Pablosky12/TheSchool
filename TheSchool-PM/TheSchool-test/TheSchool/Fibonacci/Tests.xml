@@ -1,0 +1,22 @@
+﻿<tests>
+  <serie>
+    <input>2</input>
+    <output>1</output>
+  </serie>
+  <serie>
+    <input>5</input>
+    <output>5</output>
+  </serie>
+  <serie>
+    <input>9</input>
+    <output>34</output>
+  </serie>
+  <serie>
+    <input>12</input>
+    <output>144</output>
+  </serie>
+  <serie>
+    <input>4</input>
+    <output>3</output>
+  </serie>
+</tests>

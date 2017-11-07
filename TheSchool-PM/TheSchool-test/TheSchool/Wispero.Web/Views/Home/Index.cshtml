@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron">
+    <h1>Welcome to TCS Wispero...!</h1>
+    <p>Huge companies are built on top of a variaty of processes to follow, applications to use and people to talk with.
+    Here you can ask question and we will give you the answers and hopefully help you on getting things done.</p>
+    
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <h2>Want to collaborate?</h2>
+        <p>Enter a question and answers below..</p>
+        @{ Html.RenderPartial("Entry", new Wispero.Web.Models.QuestionAndAnswerModel()); }
+    </div>
+    <div class="col-md-4">
+      @{ Html.RenderAction("TagCloud"); }
+    </div>
+</div>

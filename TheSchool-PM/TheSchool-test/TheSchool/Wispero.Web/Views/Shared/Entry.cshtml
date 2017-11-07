@@ -1,0 +1,46 @@
+﻿@model Wispero.Web.Models.QuestionAndAnswerModel
+
+<div class="container" id="EntryForm">
+    <div class="row">
+        <div class="form-group">
+            @using (Ajax.BeginForm("New", new AjaxOptions() { UpdateTargetId = "EntryForm", HttpMethod = "POST", OnBegin= "onAjaxBegin", OnComplete= "onAjaxComplete" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(excludePropertyErrors: true, message: "Please, fill all the fields.", htmlAttributes: new { @class = "bg-danger" })
+
+                <textarea rows="5" style="min-width: 100%" required class="form-control" name="txtQuestion" value="" placeholder="@Html.DisplayNameFor(x => x.Question)"></textarea>
+                <br />
+                <textarea rows="5" style="min-width: 100%" required class="form-control" name="txtAnswer" value="" placeholder="@Html.DisplayNameFor(x => x.Answer)"></textarea>
+                <br />
+                <input type="text" style="min-width: 100%" required class="form-control" name="txtTags" value="" placeholder="@Html.DisplayNameFor(x => x.Tags)" />
+                <br />
+                <button type="submit" class="btn btn-primary">Submit</button>
+            }
+           
+        </div>
+    </div>
+</div>
+
+<style>
+
+    .progress
+    {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -100px;
+        height: 150px;
+        width: 150px;
+    }
+
+    .divhide {
+        display: none;
+    }
+
+    .divShow {
+        display: normal;
+    }
+
+</style>
+
